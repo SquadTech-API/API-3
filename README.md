@@ -14,6 +14,8 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 
 
 
+
+
 ##  Cronograma das Sprints
 | Sprint | Período | Entregas Principais |
 |--------|---------|---------------------|
@@ -30,7 +32,8 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&labelColor=2C2C2C)
 
 ## Frontend
-
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=2C2C2C)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white&labelColor=2C2C2C)
 
 
 ## Ferramentas e gestão
@@ -51,52 +54,57 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   - Labels para categorização
   - Checkpoints de progresso
 
-### Estrutura de Rastreabilidade
+## Estrutura de Rastreabilidade
 | Sprint | Story | Tarefas Relacionadas |
 |--------|-------|----------------------|
 | Sprint 1 | US-01: *Descrição* | • TASK-001: • TASK-002:  |
 | Sprint 2 | US-02: *Descrição* | • TASK-003: • TASK-004:  |
 | Sprint 3 | US-03: *Descrição* | • TASK-005: • TASK-006:  |
 
-### Estrutura das Branches
-- A branch main representa sempre a versão mais estável e atual do sistema.
-- Branches de feature devem ser criadas a partir de frontend ou backend
-- Após conclusão, abrir PR para a branch de origem (frontend/backend)
-- As branches frontend e backend são integradas à main periodicamente
+## Estrutura de commmit 
+| `<tipo>`  | Descrição | Exemplo |
+|-----------|-----------|---------|
+|  `<feat>` | Adição de um recurso, uma "freature" (funcionalidade). | feat(AB-123, AB-56): Implementação dos repositories usados nas operações com as tabelas de variações climáticas. |
+|  `<fix>`  | Correção de bug. | fix(#45): Correção do componente de seleção de município. |         
+| `<docs>` | Atualização de documentação. | docs(#45): Inclusão de diagrama de modelo de BD para a aplicação. |
+| `<style>` | Mudança de formatação, sem afetar o código. | style(AB-123, AB-56): Ajuste de nomes para variáveis para o padrão camelCase. |
+| `<refactor>` | Refatoração do código, sem alterar a funcionalidade. | refactor(AC-34): Padronização de nomes designados a atributos. |
+| `<test>` | Adiciona ou modifica testes. | test(AD-09): Adição de teste de controle de tabela. |
+| `<chore>` | Atualizações menores que não impactam diretamente a funcionalidade do código. | chore(auth): atualiza versão do Spring Boot para 2.7.0 |
+> **Nota:** Substitua `(rank)` pelo identificador da tarefa (ex: `AB-123`, `#45`, `US-01`). Se não houver código, use um escopo descritivo como `(auth)`.
 
-Este projeto adota o modelo GitHub Flow, priorizando simplicidade, integração contínua e entregas frequentes.
 
-A branch main representa sempre a versão mais estável e atual do sistema.
+##  Estrutura de Branches
+| Branch       | Duração | Propósito                                          | Origem       | Integração                          |
+|--------------|---------|----------------------------------------------------|--------------|-------------------------------------|
+| `main`       | Longa   | Versão estável e pronta para produção              | -            | Recebe merge de `frontend`/`backend`|
+| `backend`    | Longa   | Desenvolvimento contínuo do backend                | `main`       | Recebe PRs de branches de feature   |
+| `frontend`   | Longa   | Desenvolvimento contínuo do frontend               | `main`       | Recebe PRs de branches de feature   |
+| `<tipo>`  | Curta   | Feature, correção ou refatoração específica        | `frontend`/`backend` | Abre PR para a branch de origem |
 
-Branch principal
 
-Utilizamos três branch de longa duração: main, backend e frontend.
-A main deve estar sempre estável e pronta para uso.
-Nenhuma alteração é feita diretamente na main.
+## Padrão de Nomenclatura de Branches
+| Tipo       | Formato                           | Exemplo                          |
+|------------|-----------------------------------|----------------------------------|
+| Feature    | `feat Rank <descrição-curta>`     | `feat Rank tela-login`           |
+| Correção   | `fix Rank <descrição-curta>`      | `fix Rank validação-email`       |
+| Refatoração| `refactor Rank <descrição-curta>` | `refactor Rank modulariza-servicos` |
 
-Branches de desenvolvimento
 
-Novas funcionalidades ou correções devem ser desenvolvidas em branches curtas, criadas a partir do frontend ou backend.
-Após a conclusão da tarefa, a branch deve ser integrada via Pull Request. 
+## Padrão de Títulos de Pull Requests (Conventional Commits simplificado)
 
-Padrão de nomenclatura
-- < tipo > Rank <descrição curta>
-- < feat > Rank <descrição curta>
-- < fix > Rank <descrição curta>
-- < refactor > Rank <descrição curta>
+| Tipo      | Escopo     | Descrição                                      | Exemplo de título do PR                          |
+|-----------|------------|------------------------------------------------|--------------------------------------------------|
+| `feat`    | `(rank)`   | Nova funcionalidade                            | `feat(rank): adiciona tela de dashboard`         |
+| `fix`     | `(rank)`   | Correção de bug                                | `fix(rank): corrige erro ao salvar usuário`      |
+| `docs`    | `(rank)`   | Mudanças na documentação                       | `docs(rank): atualiza README com instruções`     |
+| `style`   | `(rank)`   | Alterações de formatação (espaços, indentação) | `style(rank): ajusta indentação do CSS`          |
+| `refactor`| `(rank)`   | Refatoração sem mudar comportamento            | `refactor(rank): simplifica lógica de autenticação` |
+| `test`    | `(rank)`   | Adição ou modificação de testes                | `test(rank): adiciona testes para o serviço de login` |
+| `chore`   | `(rank)`   | Tarefas de manutenção (dependências, configs)  | `chore(rank): atualiza versão do React para 18.2` |
 
-Pull Requests (PRs)
-Para manter o histórico organizado e rastreável, recomenda-se o seguinte padrão:
+> **Nota:** Substitua `(rank)` pelo identificador da tarefa (ex: `AB-123`, `#45`, `US-01`). Se não houver código, use um escopo descritivo como `(auth)`.
 
-Seguindo o Conventional Commits simplificado:
-
-- < feat > (rank) <descrição> → nova funcionalidade
-- < fix > (rank) <descrição> → correção de bug
-- < docs > (rank) <descrição> → mudanças na documentação
-- < style > (rank) <descrição> → alterações de estilo/identação
-- < refactor > (rank) <descrição> → refatoração de código
-- < test > (rank) <descrição> → adição/alteração de testes
-- < chore > (rank) <descrição> → manutenção geral
 
 ## Equipe
 
