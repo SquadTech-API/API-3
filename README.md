@@ -1,110 +1,74 @@
 # *Application Programming Interface*
+# _IPEM CONTROL_ 
 
 ##  Desafio Proposto
 ### Sistema de Controle e Análise de Abastecimento das Viaturas do IPEM – Regional de São José dos Campos.
-
 Atualmente, o controle de abastecimento das viaturas da Regional de São José dos Campos é realizado de forma manual. Os condutores registram as informações — como quilometragem, quantidade de combustível, valor abastecido e identificação do condutor — em pranchetas físicas mantidas dentro de cada veículo.
 Após o preenchimento, o Diretor da unidade precisa reunir todas as anotações, conferi-las individualmente e consolidar os dados para controle interno e posterior inserção no sistema SGI. Esse fluxo manual compromete a eficiência da gestão, tornando difícil realizar análises comparativas entre as viaturas, acompanhar o consumo médio de combustível ou identificar rapidamente possíveis inconsistências nos registros.
 
 ##  Objetivo
-
 Desenvolver um sistema web que permita o registro digital dos abastecimentos pelos condutores, a validação gerencial das informações e a geração de relatórios analíticos. A solução deve organizar os dados de forma estruturada, agilizar o processo de conferência e facilitar a consolidação mensal, promovendo maior transparência e eficiência no controle da frota.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1708705d-3fda-4976-8d32-9d34f3df1840" alt="Logo IPEM control png" width="500px">
+</div>
 
 ##  Backlog do produto
 
-
-
-
+| Rank | Código | Prioridade | User Story | Estimativa | Sprint |
+|------|--------|------------|------------|------------|--------|
+| 1 | #T01 | alta | Como técnico, quero registrar a saída da viatura, para fins de análise e gerenciamento. | 2 | 1 |
+| 2 | #T02 | alta | Como técnico, quero registrar o retorno da viatura, para gerenciamento de kilometragem. | 2 | 1 |
+| 3 | #T03 | alta | Como técnico, quero registrar abastecimentos, para manter controle preciso do consumo. | 2 | 1 |
+| 4 | #A01 | média | Como administrador, quero cadastrar viaturas, para controle da frota. | 2 | 1 |
+| 5 | #A02 | média | Como administrador, quero cadastrar técnicos, para identificação nos registros. | 2 | 1 |
+| 6 | #A03 | média | Como administrador, quero visualizar qual técnico está utilizando cada viatura no dia, para manter controle operacional diário. | 3 | 1 |
+| 7 | #A04 | alta | Como administrador, quero visualizar o histórico completo de abastecimentos, para acompanhar padrões de consumo. | 3 | 2 |
+| 8 | #A05 | alta | Como administrador, quero gerar relatório mensal de uso por viatura, para consolidação e envio ao SGI. | 5 | 2 |
+| 9 | #A06 | alta | Como administrador, quero gerar relatório diário por técnico, antes da consolidação mensal, para validar registros e confiabilidade de dados. | 5 | 2 |
+| 10 | #A07 | média | Como administrador, quero visualizar dashboard com gráficos comparativos entre viaturas, para facilitar análise estratégica. | 5 | 2 |
+| 11 | #T04 | baixa | Como técnico, quero consultar o histórico completo de utilização da viatura. | 4 | 2 |
+| 12 | #A08 | baixa | Como administrador, quero receber alerta automático quando a viatura atingir quilometragem pré-definida, para planejamento de manutenção. |  | 3 |
+| 13 | #A09 | média | Como administrador, quero exportar relatórios em formato compatível com o SGI (CSV ou Excel), para facilitar a integração. | 5 | 3 |
+| 14 | #A10 | baixa | Como administrador, quero poder compactar a aplicação e utilizá-la em forma de app, para facilitação do uso. | 7 | 3 |
 
 ##  Cronograma das Sprints
-| Sprint | Período | Entregas Principais |
-|--------|---------|---------------------|
-| Sprint 1 | 16/03-05/04 | •  |
-| Sprint 2 | 13/04-03/05 | •  |
-| Sprint 3 | 11/05-31/05 | •  |
+| Sprint | Período | Link documentação | Vídeo Youtube |
+|--------|---------|-------------------|---------------|
+| Sprint 1 | 16/03-05/04 |  |    |      |
+| Sprint 2 | 13/04-03/05 |   |
+| Sprint 3 | 11/05-31/05 |   |
 
+## Tecnologias utlizadas - Backend
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="https://img.shields.io/badge/IntelliJ_Community-2E7D32?style=for-the-badge&logo=intellij-idea&logoColor=white&labelColor=2C2C2C" alt="IntelliJ Community" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2C2C2C" alt="Java" />
+  <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&labelColor=2C2C2C" alt="Maven" />
+</div>
 
-## Tecnologias utlizadas 
+## Tecnologias utlizadas - Frontend
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=2C2C2C" alt="Figma" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white&labelColor=2C2C2C" alt="Canva" />
+</div>
 
-### Backend
-![IntelliJ Community](https://img.shields.io/badge/IntelliJ_Community-2E7D32?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2C2C2C)
-![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&labelColor=2C2C2C)
+## Tecnologias utlizadas - Ferramentas e Gestão
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub_Projects-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub Projects" />
+  <img src="https://img.shields.io/badge/GitHub_Desktop-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub Desktop" />
+  <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=2C2C2C" alt="Google Drive" />
+</div>
 
-## Frontend
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=2C2C2C)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white&labelColor=2C2C2C)
+## Como executar, usar e testar o projeto
+- A realizar
 
-
-## Ferramentas e gestão
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Desktop](https://img.shields.io/badge/GitHub_Desktop-6f42c1?style=for-the-badge&logo=github&logoColor=white)
-![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)
-
-
-### Gerenciamento de Projeto
-*Ferramenta escolhida para gestão das Stories e Tarefas:*
-- **Plataforma**: GitHub Projects
-- **Link do Board**: GitHub Projects
-- **Estrutura dos Cards**:
-  - Histórias de Usuário (formato: "Como - quero - para ")
-  - Tarefas divididas em sub-tarefas
-  - Assignees definidos por tarefa
-  - Labels para categorização
-  - Checkpoints de progresso
-
-## Estrutura de Rastreabilidade
-| Sprint | Story | Tarefas Relacionadas |
-|--------|-------|----------------------|
-| Sprint 1 | US-01: *Descrição* | • TASK-001: • TASK-002:  |
-| Sprint 2 | US-02: *Descrição* | • TASK-003: • TASK-004:  |
-| Sprint 3 | US-03: *Descrição* | • TASK-005: • TASK-006:  |
-
-## Estrutura de commmit 
-| `<tipo>`  | Descrição | Exemplo |
-|-----------|-----------|---------|
-|  `<feat>` | Adição de um recurso, uma "freature" (funcionalidade). | feat(AB-123, AB-56): Implementação dos repositories usados nas operações com as tabelas de variações climáticas. |
-|  `<fix>`  | Correção de bug. | fix(#45): Correção do componente de seleção de município. |         
-| `<docs>` | Atualização de documentação. | docs(#45): Inclusão de diagrama de modelo de BD para a aplicação. |
-| `<style>` | Mudança de formatação, sem afetar o código. | style(AB-123, AB-56): Ajuste de nomes para variáveis para o padrão camelCase. |
-| `<refactor>` | Refatoração do código, sem alterar a funcionalidade. | refactor(AC-34): Padronização de nomes designados a atributos. |
-| `<test>` | Adiciona ou modifica testes. | test(AD-09): Adição de teste de controle de tabela. |
-| `<chore>` | Atualizações menores que não impactam diretamente a funcionalidade do código. | chore(auth): atualiza versão do Spring Boot para 2.7.0 |
-> **Nota:** Substitua `(rank)` pelo identificador da tarefa (ex: `AB-123`, `#45`, `US-01`). Se não houver código, use um escopo descritivo como `(auth)`.
-
-
-##  Estrutura de Branches
-| Branch       | Duração | Propósito                                          | Origem       | Integração                          |
-|--------------|---------|----------------------------------------------------|--------------|-------------------------------------|
-| `main`       | Longa   | Versão estável e pronta para produção              | -            | Recebe merge de `frontend`/`backend`|
-| `backend`    | Longa   | Desenvolvimento contínuo do backend                | `main`       | Recebe PRs de branches de feature   |
-| `frontend`   | Longa   | Desenvolvimento contínuo do frontend               | `main`       | Recebe PRs de branches de feature   |
-| `<tipo>`  | Curta   | Feature, correção ou refatoração específica        | `frontend`/`backend` | Abre PR para a branch de origem |
-
-
-## Padrão de Nomenclatura de Branches
-| Tipo       | Formato                           | Exemplo                          |
-|------------|-----------------------------------|----------------------------------|
-| Feature    | `feat Rank <descrição-curta>`     | `feat Rank tela-login`           |
-| Correção   | `fix Rank <descrição-curta>`      | `fix Rank validação-email`       |
-| Refatoração| `refactor Rank <descrição-curta>` | `refactor Rank modulariza-servicos` |
-
-
-## Padrão de Títulos de Pull Requests (Conventional Commits simplificado)
-
-| Tipo      | Escopo     | Descrição                                      | Exemplo de título do PR                          |
-|-----------|------------|------------------------------------------------|--------------------------------------------------|
-| `feat`    | `(rank)`   | Nova funcionalidade                            | `feat(rank): adiciona tela de dashboard`         |
-| `fix`     | `(rank)`   | Correção de bug                                | `fix(rank): corrige erro ao salvar usuário`      |
-| `docs`    | `(rank)`   | Mudanças na documentação                       | `docs(rank): atualiza README com instruções`     |
-| `style`   | `(rank)`   | Alterações de formatação (espaços, indentação) | `style(rank): ajusta indentação do CSS`          |
-| `refactor`| `(rank)`   | Refatoração sem mudar comportamento            | `refactor(rank): simplifica lógica de autenticação` |
-| `test`    | `(rank)`   | Adição ou modificação de testes                | `test(rank): adiciona testes para o serviço de login` |
-| `chore`   | `(rank)`   | Tarefas de manutenção (dependências, configs)  | `chore(rank): atualiza versão do React para 18.2` |
-
-> **Nota:** Substitua `(rank)` pelo identificador da tarefa (ex: `AB-123`, `#45`, `US-01`). Se não houver código, use um escopo descritivo como `(auth)`.
-
+## Link para a pasta de documentação
+- DoR e DoD
+- DoR e DoD por Sprint
+- Estratégia de branch
+- Manual de Usuário
+- Manual de Instalação
 
 ## Equipe
 
