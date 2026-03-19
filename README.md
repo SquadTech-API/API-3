@@ -27,10 +27,10 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 | 8 | #A05 | alta | Como administrador, quero gerar relatório mensal de uso por viatura, para consolidação e envio ao SGI. | 5 | 2 |
 | 9 | #A06 | alta | Como administrador, quero gerar relatório diário por técnico, antes da consolidação mensal, para validar registros e confiabilidade de dados. | 5 | 2 |
 | 10 | #A07 | média | Como administrador, quero visualizar dashboard com gráficos comparativos entre viaturas, para facilitar análise estratégica. | 5 | 2 |
-| 11 | #T04 | baixa | Como técnico, quero consultar o histórico completo de utilização da viatura. | 4 | 2 |
-| 12 | #A08 | baixa | Como administrador, quero receber alerta automático quando a viatura atingir quilometragem pré-definida, para planejamento de manutenção. |  | 3 |
+| 11 | #T04 | baixa | Como técnico, quero consultar o histórico completo de utilização da viatura. | 5 | 2 |
+| 12 | #A08 | baixa | Como administrador, quero receber alerta automático quando a viatura atingir quilometragem pré-definida, para planejamento de manutenção. | 3 | 3 |
 | 13 | #A09 | média | Como administrador, quero exportar relatórios em formato compatível com o SGI (CSV ou Excel), para facilitar a integração. | 5 | 3 |
-| 14 | #A10 | baixa | Como administrador, quero poder compactar a aplicação e utilizá-la em forma de app, para facilitação do uso. | 7 | 3 |
+| 14 | #A10 | baixa | Como administrador, quero poder compactar a aplicação e utilizá-la em forma de app, para facilitação do uso. | 5 | 3 |
 
 ##  Cronograma das Sprints
 | Sprint | Período | Link documentação | Vídeo Youtube |
