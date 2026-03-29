@@ -41,14 +41,15 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 
 ## Tecnologias utlizadas - Backend
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <img src="https://img.shields.io/badge/IntelliJ_Community-2E7D32?style=for-the-badge&logo=intellij-idea&logoColor=white&labelColor=2C2C2C" alt="IntelliJ Community" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2C2C2C" alt="Java" />
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white&labelColor=2C2C2C" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2C2C2C" alt="Java" />
   <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&labelColor=2C2C2C" alt="Maven" />
 </div>
 
 ## Tecnologias utlizadas - Frontend
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=2C2C2C" alt="Figma" />
+  <img src="https://img.shields.io/badge/Icons8-FF6F00?style=for-the-badge&logo=icons8&logoColor=white&labelColor=2C2C2C" alt="Icons8" />
   <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white&labelColor=2C2C2C" alt="Canva" />
 </div>
 
@@ -56,8 +57,11 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub" />
   <img src="https://img.shields.io/badge/GitHub_Projects-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub Projects" />
-  <img src="https://img.shields.io/badge/GitHub_Desktop-6f42c1?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub Desktop" />
-  <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=2C2C2C" alt="Google Drive" />
+  <img src="https://img.shields.io/badge/GitHub_Desktop-8250DF?style=for-the-badge&logo=github&logoColor=white&labelColor=2C2C2C" alt="GitHub Desktop" />
+  <img src="https://img.shields.io/badge/Google_Drive-34A853?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=2C2C2C" alt="Google Drive" />
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white&labelColor=2C2C2C" alt="Excel" />
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=2C2C2C" alt="Discord" />
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white&labelColor=2C2C2C" alt="Slack" />
 </div>
 
 ## Como executar, usar e testar o projeto
@@ -66,9 +70,12 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 ## Link para a pasta de documentação
 - DoR e DoD
 - DoR e DoD por Sprint
-- Estratégia de branch
 - Manual de Usuário
 - Manual de Instalação
+- [![Branch](https://img.shields.io/badge/Branch-Strategy-orange?style=for-the-badge&logo=git)](LINK_BRANCH)
+- [![Tasks](https://img.shields.io/badge/Tasks-Traceability-orange?style=for-the-badge&logo=trello)](LINK_TASKS)
+- [![Commits](https://img.shields.io/badge/Commits-Conventional-orange?style=for-the-badge&logo=git)](LINK_COMMITS)
+
 
 ## Equipe
 
