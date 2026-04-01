@@ -39,6 +39,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 | Sprint 1 | 16/03 - 05/04 |  |    |      |
 | Sprint 2 | 13/04 - 03/05 |   |
 | Sprint 3 | 11/05 - 31/05 |   |
+| Feira de Soluções |  11/06 |    |
 
 ## Tecnologias utlizadas - Backend
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
@@ -70,7 +71,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 
 ## Link para a pasta de documentação
 - DoR e DoD
-- DoR e DoD por Sprint
+- Padrão de commit 
 - Manual de Usuário
 - Manual de Instalação
 - Estratégia de Branch
