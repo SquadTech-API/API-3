@@ -117,6 +117,7 @@ CREATE TABLE veiculo_servico (
 CREATE TABLE registro_saida (
   id_saida             INT            NOT NULL AUTO_INCREMENT,
   local_destino        VARCHAR(200)   NOT NULL,
+  id_tipo_servico      INT NOT NULL,
   status               ENUM(
                          'em_andamento',
                          'concluido'
