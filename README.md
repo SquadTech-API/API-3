@@ -9,21 +9,17 @@ Após o preenchimento, o Diretor da unidade precisa reunir todas as anotações,
 ##  Objetivo
 Desenvolver um sistema web que permita o registro digital dos abastecimentos pelos condutores, a validação gerencial das informações e a geração de relatórios analíticos. A solução deve organizar os dados de forma estruturada, agilizar o processo de conferência e facilitar a consolidação mensal, promovendo maior transparência e eficiência no controle da frota.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/1708705d-3fda-4976-8d32-9d34f3df1840" alt="Logo IPEM control png" width="500px">
-</div>
-
 ##  Backlog do produto
 
-| Código | Prioridade | User Story | Estimativa | Sprint |
-|--------|------------|------------|------------|--------|
-| #U01 | alta | Como usuário quero proteger meus dados, para garantir a integridade do sistema IPEM. | 2 | 1 |
-| #T01 | alta | Como técnico, quero registrar a saída da viatura, para fins de análise e gerenciamento. | 2 | 1 |
-| #T02 | alta | Como técnico, quero registrar o retorno da viatura, para gerenciamento de kilometragem. | 2 | 1 |
-| #T03 | alta | Como técnico, quero registrar abastecimentos, para manter controle preciso do consumo. | 2 | 1 |
-| #A01 | média | Como administrador, quero cadastrar viaturas, para controle da frota. | 2 | 1 |
-| #A02 | média | Como administrador, quero cadastrar técnicos, para identificação nos registros. | 2 | 1 |
-| #A03 | média | Como administrador, quero visualizar qual técnico está utilizando cada viatura no dia, para manter controle operacional diário. | 3 | 1 |
+| Código | Prioridade | User Story | Estimativa | Sprint | Status |
+|--------|------------|------------|------------|--------|--------|
+| #U01 | alta | Como usuário quero proteger meus dados, para garantir a integridade do sistema IPEM. | 2 | 1 | ✓ |
+| #T01 | alta | Como técnico, quero registrar a saída da viatura, para fins de análise e gerenciamento. | 2 | 1 | ✓ |
+| #T02 | alta | Como técnico, quero registrar o retorno da viatura, para gerenciamento de kilometragem. | 2 | 1 | ✓ |
+| #T03 | alta | Como técnico, quero registrar abastecimentos, para manter controle preciso do consumo. | 2 | 1 | ♻️ |
+| #A01 | média | Como administrador, quero cadastrar viaturas, para controle da frota. | 2 | 1 | ✓ |
+| #A02 | média | Como administrador, quero cadastrar técnicos, para identificação nos registros. | 2 | 1 | ✓ |
+| #A03 | média | Como administrador, quero visualizar qual técnico está utilizando cada viatura no dia, para manter controle operacional diário. | 3 | 1 | ✓ |
 | #A04 | alta | Como administrador, quero visualizar o histórico completo de abastecimentos, para acompanhar padrões de consumo. | 3 | 2 |
 | #A05 | alta | Como administrador, quero gerar relatório mensal de uso por viatura, para consolidação e envio ao SGI. | 5 | 2 |
 | #A06 | alta | Como administrador, quero gerar relatório diário por técnico, antes da consolidação mensal, para validar registros e confiabilidade de dados. | 5 | 2 |
@@ -48,6 +44,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white&labelColor=2C2C2C" alt="IntelliJ IDEA" />
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2C2C2C" alt="Java" />
   <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&labelColor=2C2C2C" alt="Maven" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=2C2C2C" alt="Postman" />
 </div>
 
 ## Tecnologias utlizadas - Frontend
