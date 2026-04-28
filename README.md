@@ -1,5 +1,6 @@
-# *Application Programming Interface*
-# _IPEM CONTROL_ 
+<img width="900" height="200" alt="IPEM (600 x 200 px) (900 x 200 px)" src="https://github.com/user-attachments/assets/476687ba-2d7b-4d9b-88ba-2612e8b9b833" />
+
+
 
 ##  Desafio Proposto
 ### Sistema de Controle e Análise de Abastecimento das Viaturas do IPEM – Regional de São José dos Campos.
@@ -11,23 +12,6 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 
 ##  Backlog do produto
 
-| Código | Prioridade | User Story | Estimativa | Sprint | Status |
-|--------|------------|------------|------------|--------|--------|
-| #U01 | alta | Como usuário quero proteger meus dados, para garantir a integridade do sistema IPEM. | 2 | 1 | ✓ |
-| #T01 | alta | Como técnico, quero registrar a saída da viatura, para fins de análise e gerenciamento. | 2 | 1 | ✓ |
-| #T02 | alta | Como técnico, quero registrar o retorno da viatura, para gerenciamento de kilometragem. | 2 | 1 | ✓ |
-| #T03 | alta | Como técnico, quero registrar abastecimentos, para manter controle preciso do consumo. | 2 | 1 | ♻️ |
-| #A01 | média | Como administrador, quero cadastrar viaturas, para controle da frota. | 2 | 1 | ✓ |
-| #A02 | média | Como administrador, quero cadastrar técnicos, para identificação nos registros. | 2 | 1 | ✓ |
-| #A03 | média | Como administrador, quero visualizar qual técnico está utilizando cada viatura no dia, para manter controle operacional diário. | 3 | 1 | ✓ |
-| #A04 | alta | Como administrador, quero visualizar o histórico completo de abastecimentos, para acompanhar padrões de consumo. | 3 | 2 |
-| #A05 | alta | Como administrador, quero gerar relatório mensal de uso por viatura, para consolidação e envio ao SGI. | 5 | 2 |
-| #A06 | alta | Como administrador, quero gerar relatório diário por técnico, antes da consolidação mensal, para validar registros e confiabilidade de dados. | 5 | 2 |
-| #A07 | média | Como administrador, quero visualizar dashboard com gráficos comparativos entre viaturas, para facilitar análise estratégica. | 5 | 2 |
-| #T04 | baixa | Como técnico, quero consultar o histórico completo de utilização da viatura. | 5 | 2 |
-| #A08 | baixa | Como administrador, quero receber alerta automático quando a viatura atingir quilometragem pré-definida, para planejamento de manutenção. | 3 | 3 |
-| #A09 | média | Como administrador, quero exportar relatórios em formato compatível com o SGI (CSV ou Excel), para facilitar a integração. | 5 | 3 |
-| #A10 | baixa | Como administrador, quero poder compactar a aplicação e utilizá-la em forma de app, para facilitação do uso. | 5 | 3 |
 
 ##  Cronograma das Sprints
 | Sprint | Período | Link documentação | Vídeo Youtube |
@@ -37,6 +21,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 | Sprint 3 | 11/05 - 31/05 |   |
 | Feira de Soluções |  11/06 |    |
 
+→ Referência: Docs Sprint inclui burndown, backlog e tabelas de rastreabilidade de task efetuadas por Sprint
 
 
 ## Tecnologias utlizadas - Backend
