@@ -10,16 +10,17 @@ Após o preenchimento, o Diretor da unidade precisa reunir todas as anotações,
 ##  Objetivo
 Desenvolver um sistema web que permita o registro digital dos abastecimentos pelos condutores, a validação gerencial das informações e a geração de relatórios analíticos. A solução deve organizar os dados de forma estruturada, agilizar o processo de conferência e facilitar a consolidação mensal, promovendo maior transparência e eficiência no controle da frota.
 
-##  Backlog do produto
+## Backlog do produto
+[![📄 BACKLOG DO PRODUTO](https://img.shields.io/badge/📄_BACKLOG_DO_PRODUTO-0A0A0A?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/2e7defdae90e209714972c4a00d7f86b0e169f0a/docs/Backlog%20de%20produto.pdf)
 
+## Cronograma das Sprints
 
-##  Cronograma das Sprints
-| Sprint | Período | Link documentação | Vídeo Youtube |
-|--------|---------|-------------------|---------------|
-| Sprint 1 | 16/03 - 05/04 | [![Docs 1ª Sprint](https://img.shields.io/badge/Docs-1ª_Sprint-blue?logo=github)](https://github.com/SquadTech-API/API-3/tree/ac7b23c342edacca8dcc3b31f1fa43d2b994d45e/docs%201%C2%BA%20Sprint) | [![YouTube](https://img.shields.io/badge/1º_Sprint_ADM-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=H91QZQpGf2M) [![YouTube](https://img.shields.io/badge/1º_Sprint_Téc-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=yK_N4FqFcNA)   |   
-| Sprint 2 | 13/04 - 03/05 |   |
-| Sprint 3 | 11/05 - 31/05 |   |
-| Feira de Soluções |  11/06 |    |
+| Sprint     | Período         | Link documentação | Vídeo YouTube |
+|------------|----------------|-------------------|---------------|
+| Sprint 1   | 16/03 - 05/04  | [![Docs 1ª Sprint](https://img.shields.io/badge/Docs_1ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/ac7b23c342edacca8dcc3b31f1fa43d2b994d45e/docs%201%C2%BA%20Sprint) | [![ADM](https://img.shields.io/badge/-1º_Sprint_ADM-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/watch?v=H91QZQpGf2M) [![Téc](https://img.shields.io/badge/-1º_Sprint_Téc-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/watch?v=yK_N4FqFcNA) |
+| Sprint 2   | 13/04 - 03/05  | [![Docs 2ª Sprint](https://img.shields.io/badge/Docs_2ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/2e7defdae90e209714972c4a00d7f86b0e169f0a/Doc%20por%20Sprint/docs%202%C2%BA%20Sprint) | [![ADM](https://img.shields.io/badge/-2º_Sprint_ADM-BFBFBF?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)]() [![Téc](https://img.shields.io/badge/-2º_Sprint_Téc-BFBFBF?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)]()              |
+| Sprint 3   | 11/05 - 31/05  |                   |               |
+| Feira de Soluções | 11/06 |                   |               |
 
 → Referência: Docs Sprint inclui burndown, backlog e tabelas de rastreabilidade de task efetuadas por Sprint
 
@@ -52,7 +53,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 </div>
 
 ## Como executar, usar e testar o projeto
-- A realizar
+[![📄MANUAL DE INSTALAÇÃO](https://img.shields.io/badge/📄_Manual_de_instalação-0A0A0A?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/2e7defdae90e209714972c4a00d7f86b0e169f0a/docs/Manual_Instalacao_IPEMControl.docx)
 
 ## Link para a pasta de documentação
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
