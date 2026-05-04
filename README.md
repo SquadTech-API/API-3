@@ -31,6 +31,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=2C2C2C" alt="Java" />
   <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white&labelColor=2C2C2C" alt="Maven" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=2C2C2C" alt="Postman" />
+ <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white&labelColor=2C2C2C" alt="Spring Boot" />
 </div>
 
 ## Tecnologias utlizadas - Frontend
@@ -39,6 +40,9 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   <img src="https://img.shields.io/badge/Icons8-FF6F00?style=for-the-badge&logo=icons8&logoColor=white&labelColor=2C2C2C" alt="Icons8" />
   <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white&labelColor=2C2C2C" alt="Canva" />
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=2C2C2C" alt="VS Code" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=2C2C2C" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=2C2C2C" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=2C2C2C" alt="JavaScript" />
 </div>
 
 ## Tecnologias utlizadas - Ferramentas e Gestão
