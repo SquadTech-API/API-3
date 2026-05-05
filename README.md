@@ -42,7 +42,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=2C2C2C" alt="VS Code" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=2C2C2C" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=2C2C2C" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=2C2C2C" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=2C2C2C" alt="JavaScript" />
 </div>
 
 ## Tecnologias utlizadas - Ferramentas e Gestão
@@ -65,8 +65,10 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   <a href="https://github.com/SquadTech-API/API-3/blob/ee61629cf005487cb87d6847138cb404cf9ab7e7/docs/DOD.pdf"><img src="https://img.shields.io/badge/DoD-Definition_of_Done-2E8B57?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="DoD" /></a>
   <a href="https://github.com/SquadTech-API/API-3/blob/ac7b23c342edacca8dcc3b31f1fa43d2b994d45e/docs/Estrat%C3%A9gia%20de%20Branche%20e%20Pull%20Request.pdf"><img src="https://img.shields.io/badge/Estrat%C3%A9gia_de_Branch-Git_Flow-6A0DAD?style=for-the-badge&logo=git&logoColor=white" alt="Estratégia de Branch" /></a>
   <a href="https://github.com/SquadTech-API/API-3/blob/ac7b23c342edacca8dcc3b31f1fa43d2b994d45e/docs/Padroniza%C3%A7%C3%A3o%20de%20commit.pdf.pdf"><img src="https://img.shields.io/badge/Padr%C3%A3o_de_Commit-Conventional_Commits-FF6F00?style=for-the-badge&logo=git&logoColor=white" alt="Padrão de Commit" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Manual_do_Usu%C3%A1rio-Em_breve-808080?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual do Usuário (em breve)" /></a>
   <a href="https://github.com/SquadTech-API/API-3/blob/08871aeced2b8c9958f109d584b41fbbe3011aec/docs/Manual_Instalacao_IPEMControl.pdf"><img src="https://img.shields.io/badge/Manual_de_Instala%C3%A7%C3%A3o-installation_guide-F2C12E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual de Instalação" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Manual_de_funcionamento-Banco_de_dados-800080?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual de funcionamento BD" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Documentação_Técnica-Banco_de_dados-9C0015?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Doc. técnica BD" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Manual_do_Usu%C3%A1rio-Em_breve-808080?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual do Usuário (em breve)" /></a>
 </div>
 
 
