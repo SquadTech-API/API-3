@@ -66,8 +66,8 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
   <a href="https://github.com/SquadTech-API/API-3/blob/ac7b23c342edacca8dcc3b31f1fa43d2b994d45e/docs/Estrat%C3%A9gia%20de%20Branche%20e%20Pull%20Request.pdf"><img src="https://img.shields.io/badge/Estrat%C3%A9gia_de_Branch-Git_Flow-6A0DAD?style=for-the-badge&logo=git&logoColor=white" alt="Estratégia de Branch" /></a>
   <a href="https://github.com/SquadTech-API/API-3/blob/ac7b23c342edacca8dcc3b31f1fa43d2b994d45e/docs/Padroniza%C3%A7%C3%A3o%20de%20commit.pdf.pdf"><img src="https://img.shields.io/badge/Padr%C3%A3o_de_Commit-Conventional_Commits-FF6F00?style=for-the-badge&logo=git&logoColor=white" alt="Padrão de Commit" /></a>
   <a href="https://github.com/SquadTech-API/API-3/blob/08871aeced2b8c9958f109d584b41fbbe3011aec/docs/Manual_Instalacao_IPEMControl.pdf"><img src="https://img.shields.io/badge/Manual_de_Instala%C3%A7%C3%A3o-installation_guide-F2C12E?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual de Instalação" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Manual_de_funcionamento-Banco_de_dados-800080?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual de funcionamento BD" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Documentação_Técnica-Banco_de_dados-9C0015?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Doc. técnica BD" /></a>
+  <a href="docs_BD/IPEM_Manual_Funcionamento.pdf"><img src="https://img.shields.io/badge/Manual_de_funcionamento-Banco_de_dados-800080?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual de funcionamento BD" /></a>
+  <a href="https://github.com/SquadTech-API/API-3/blob/37f326327ed185c2dddd8ac32a19005816c4f4d2/docs_BD/IPEM_Documentacao_Banco.pdf"><img src="https://img.shields.io/badge/Documentação_Técnica-Banco_de_dados-9C0015?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Doc. técnica BD" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Manual_do_Usu%C3%A1rio-Em_breve-808080?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Manual do Usuário (em breve)" /></a>
 </div>
 
