@@ -11,7 +11,7 @@ Após o preenchimento, o Diretor da unidade precisa reunir todas as anotações,
 Desenvolver um sistema web que permita o registro digital dos abastecimentos pelos condutores, a validação gerencial das informações e a geração de relatórios analíticos. A solução deve organizar os dados de forma estruturada, agilizar o processo de conferência e facilitar a consolidação mensal, promovendo maior transparência e eficiência no controle da frota.
 
 ## Backlog do produto
-[![📄 BACKLOG DO PRODUTO](https://img.shields.io/badge/📄_BACKLOG_DO_PRODUTO-0A0A0A?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/2e7defdae90e209714972c4a00d7f86b0e169f0a/docs/Backlog%20de%20produto.pdf)
+[![📄 BACKLOG DO PRODUTO](https://img.shields.io/badge/📄_BACKLOG_DO_PRODUTO-0A0A0A?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/5b586a068f03ef784c14906b439915142fe973a1/docs/Backlog%20de%20produto.pdf)
 
 ## Cronograma das Sprints
 
