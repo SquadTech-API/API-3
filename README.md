@@ -11,15 +11,15 @@ Após o preenchimento, o Diretor da unidade precisa reunir todas as anotações,
 Desenvolver um sistema web que permita o registro digital dos abastecimentos pelos condutores, a validação gerencial das informações e a geração de relatórios analíticos. A solução deve organizar os dados de forma estruturada, agilizar o processo de conferência e facilitar a consolidação mensal, promovendo maior transparência e eficiência no controle da frota.
 
 ## Backlog do produto
-[![📄 BACKLOG DE PRODUTO](https://img.shields.io/badge/_BACKLOG_DE_PRODUTO-0231BD?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/5b586a068f03ef784c14906b439915142fe973a1/docs/Backlog%20de%20produto.pdf)
+[![📄 BACKLOG DE PRODUTO](https://img.shields.io/badge/_BACKLOG_DE_PRODUTO-0231BD?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/b4917d17ed926fddd254100e2917d84e557b25a6/docs/Backlog_de_produto)
 
 ## Cronograma das Sprints
 
 | Sprint     | Período         | Link documentação | Vídeo YouTube |
 |------------|----------------|-------------------|---------------|
-| Sprint 1   | 16/03 - 05/04  | [![Docs 1ª Sprint](https://img.shields.io/badge/Docs_1ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/a07776e8acb93dccf31661b6d1a36140b7800c2a/docs_por_Sprint/docs%201%C2%BA%20Sprint) | [![ADM](https://img.shields.io/badge/-1º_Sprint_ADM-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/watch?v=H91QZQpGf2M) [![Téc](https://img.shields.io/badge/-1º_Sprint_Téc-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/watch?v=yK_N4FqFcNA) |
-| Sprint 2   | 13/04 - 03/05  | [![Docs 2ª Sprint](https://img.shields.io/badge/Docs_2ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/a07776e8acb93dccf31661b6d1a36140b7800c2a/docs_por_Sprint/docs%202%C2%BA%20Sprint) | [![ADM](https://img.shields.io/badge/-2º_Sprint_ADM+TÉC-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://youtu.be/ka2Qvh4ibak)               |
-| Sprint 3   | 11/05 - 31/05  | [![Docs 3ª Sprint](https://img.shields.io/badge/Docs_3ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/9a5810c9da481dbebbb12493ae44debfffa071b2/docs_por_Sprint/docs%203%C2%BA%20Sprint)                  | [![ADM](https://img.shields.io/badge/-3º_Sprint-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)]()              |
+| Sprint 1   | 16/03 - 05/04  | [![Docs 1ª Sprint](https://img.shields.io/badge/Docs_1ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/b4917d17ed926fddd254100e2917d84e557b25a6/docs_por_Sprint/docs_1_Sprint) | [![ADM](https://img.shields.io/badge/-1º_Sprint_ADM-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/watch?v=H91QZQpGf2M) [![Téc](https://img.shields.io/badge/-1º_Sprint_Téc-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://www.youtube.com/watch?v=yK_N4FqFcNA) |
+| Sprint 2   | 13/04 - 03/05  | [![Docs 2ª Sprint](https://img.shields.io/badge/Docs_2ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/b4917d17ed926fddd254100e2917d84e557b25a6/docs_por_Sprint/docs_2_Sprint) | [![ADM](https://img.shields.io/badge/-2º_Sprint_ADM+TÉC-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)](https://youtu.be/ka2Qvh4ibak)               |
+| Sprint 3   | 11/05 - 31/05  | [![Docs 3ª Sprint](https://img.shields.io/badge/Docs_3ª_Sprint-0A0A0A?style=flat&logo=googledocs&logoColor=white&color=0A0A0A&labelColor=223A8E)](https://github.com/SquadTech-API/API-3/tree/b4917d17ed926fddd254100e2917d84e557b25a6/docs_por_Sprint/docs_3_Sprint)                  | [![ADM](https://img.shields.io/badge/-3º_Sprint-A60C0C?style=for-the-badge&logo=youtube&logoColor=white&labelColor=000000)]()              |
 | Feira de Soluções | 11/06/2026 |                   |               |
 
 → Referência: Docs Sprint inclui burndown, backlog e tabelas de rastreabilidade de task efetuadas por Sprint
@@ -57,7 +57,7 @@ Desenvolver um sistema web que permita o registro digital dos abastecimentos pel
 </div>
 
 ## Como executar, usar e testar o projeto
-[![📄MANUAL DE INSTALAÇÃO](https://img.shields.io/badge/_Manual_de_instalação-01258F?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/08871aeced2b8c9958f109d584b41fbbe3011aec/docs/Manual_Instalacao_IPEMControl.pdf)
+[![📄MANUAL DE INSTALAÇÃO](https://img.shields.io/badge/_Manual_de_instalação-01258F?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/SquadTech-API/API-3/blob/b4917d17ed926fddd254100e2917d84e557b25a6/docs/Manual_Instalacao_IPEMControl)
 
 ## Link para a pasta de documentação
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
